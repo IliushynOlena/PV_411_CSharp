@@ -44,6 +44,18 @@ namespace _02_Array
         static void Main(string[] args)
         {
             int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8 };
+
+            //for (int i = 0;i < arr.Length;i++)
+            //{
+            //    arr[i] = int.Parse(Console.ReadLine()!);
+            //}
+            Random random = new Random();
+            double res = random.NextDouble() + random.Next(100);
+            Console.WriteLine(res);
+
+            res = Math.Round(res,2);
+            Console.WriteLine(res);
+
             ShowArray(100, arr);
             ShowArrayNew(100, 10,20,30,40);
             ShowArrayNew(100, 10,20,30,40,50,60);
