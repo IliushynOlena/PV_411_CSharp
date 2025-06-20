@@ -2,6 +2,7 @@
 {
     partial class Point
     {
+        //Properties
         private int xCoord;
         public int XCoord//(int value)
         {
