@@ -31,9 +31,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Enum", "11_Enum\11_Enum.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Delegates", "12_Delegates\12_Delegates.csproj", "{CF4BD9BB-24DC-435E-9748-48FA70DD5DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Event", "13_Event\13_Event.csproj", "{B474FE18-035D-42E1-A387-6E28B624ABAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Event", "13_Event\13_Event.csproj", "{B474FE18-035D-42E1-A387-6E28B624ABAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_ExtensionMethod", "14_ExtensionMethod\14_ExtensionMethod.csproj", "{8CBBFD81-7CBC-4D7C-B95B-D53C1F328AB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_ExtensionMethod", "14_ExtensionMethod\14_ExtensionMethod.csproj", "{8CBBFD81-7CBC-4D7C-B95B-D53C1F328AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_Dictionary", "15_Dictionary\15_Dictionary.csproj", "{668C9617-F101-423C-B252-6A5041F80292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{8CBBFD81-7CBC-4D7C-B95B-D53C1F328AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CBBFD81-7CBC-4D7C-B95B-D53C1F328AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CBBFD81-7CBC-4D7C-B95B-D53C1F328AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668C9617-F101-423C-B252-6A5041F80292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668C9617-F101-423C-B252-6A5041F80292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668C9617-F101-423C-B252-6A5041F80292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668C9617-F101-423C-B252-6A5041F80292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
