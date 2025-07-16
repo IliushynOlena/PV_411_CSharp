@@ -22,7 +22,8 @@ namespace _19_04_DataAnnotations
         [Required]
         [Compare(nameof( Password),ErrorMessage ="Not confirm password")]
         public string ConfirmPassword { get; set; }
-        [Phone]
+        //[Phone]
+        [RegularExpression(@"\+380\(\d{2}\)\d{3}\-\d{2}\-\d{2}|\+380\d{9}")]
         public string Phone { get; set; }
 
     }
