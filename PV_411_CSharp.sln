@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_03_XML_JSON_Serializatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_04_DataAnnotations", "19_04_DataAnnotations\19_04_DataAnnotations.csproj", "{C1CB9884-48F9-428A-BB59-88A93BFA2DD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_RegularExpression", "20_RegularExpression\20_RegularExpression.csproj", "{8EDCE338-B12B-4C31-9D56-602041ADE513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_RegularExpression", "20_RegularExpression\20_RegularExpression.csproj", "{8EDCE338-B12B-4C31-9D56-602041ADE513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_LINQ", "21_LINQ\21_LINQ.csproj", "{E7F1359D-DFA4-4891-B94D-C98CCBD7B1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{8EDCE338-B12B-4C31-9D56-602041ADE513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EDCE338-B12B-4C31-9D56-602041ADE513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EDCE338-B12B-4C31-9D56-602041ADE513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F1359D-DFA4-4891-B94D-C98CCBD7B1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F1359D-DFA4-4891-B94D-C98CCBD7B1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F1359D-DFA4-4891-B94D-C98CCBD7B1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F1359D-DFA4-4891-B94D-C98CCBD7B1BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
